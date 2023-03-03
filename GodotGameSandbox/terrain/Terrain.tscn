@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://terrain/_textures/Terrain.tres" type="TileSet" id=1]
+
+[node name="Terrain" type="TileMap"]
+scale = Vector2( 0.6, 0.6 )
+mode = 1
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 256, 128 )
+format = 1

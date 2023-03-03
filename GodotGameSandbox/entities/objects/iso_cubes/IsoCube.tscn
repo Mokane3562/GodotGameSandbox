@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://addons/IsoCube/IsoCube.gd" type="Script" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
+
+[node name="IsoCube" type="StaticBody2D"]
+
+[node name="IsoCubeView" type="Control" parent="."]
+margin_left = -64.2172
+margin_top = -96.9204
+margin_right = 63.7828
+margin_bottom = 32.0796
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+top_texture = ExtResource( 2 )
+left_texture = ExtResource( 2 )
+right_texture = ExtResource( 2 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( 0.00140381, 29.7108, 64.7412, -1.32424, -0.332306, -32.3593, -63.7373, -0.323112 )
