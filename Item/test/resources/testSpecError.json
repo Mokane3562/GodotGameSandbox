@@ -1,0 +1,7 @@
+﻿{
+  "itemSpec": {
+    "id": "ExampleItem.Id",
+    "isUnique": false,
+    "nonExistentProperty": "moot"
+  }
+}

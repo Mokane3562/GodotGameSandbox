@@ -1,0 +1,6 @@
+﻿{
+  "itemSpec": {
+    "id": "ExampleItem.Id",
+    "isUnique": true
+  }
+}
