@@ -2,7 +2,7 @@
 
 using NUnit.Framework;
 
-public class CouncilTest
+public abstract class CouncilTest
 {
     private Council _council = null!;
 
@@ -78,7 +78,8 @@ public class CouncilTest
             playerSwayingAgree = true;
         }
 
-        VoteResult result = _council.SwayPerson(nameOfSwayedPerson, playerSwayingAgree)
+        VoteResult result = _council
+            .SwayPerson(nameOfSwayedPerson, playerSwayingAgree)
             .Converse()
             .TallyVote(playerOpinion);
         Assert.That(result, Is.EqualTo(VoteResult.Passed));

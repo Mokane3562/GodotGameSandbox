@@ -1,9 +1,9 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=5 format=3]
 
-[ext_resource path="res://ui/main_menu/_textures/beautiful-village-farmlands-trees-meadows-260nw-718204132.webp" type="Texture2D" id=1]
-[ext_resource path="res://ui/main_menu/_textures/clipart987874.png" type="Texture2D" id=2]
-[ext_resource path="res://ui/main_menu/_scripts/MainMenu.cs" type="Script" id=3]
-[ext_resource path="res://fonts/font_title.tres" type="FontFile" id=4]
+[ext_resource type="Texture2D" uid="uid://cucgf5j6l0erg" path="res://ui/main_menu/_assets/beautiful-village-farmlands-trees-meadows-260nw-718204132.webp" id="1"]
+[ext_resource type="Texture2D" uid="uid://cmevecqdf4pdn" path="res://ui/main_menu/_assets/clipart987874.png" id="2"]
+[ext_resource type="Script" path="res://ui/main_menu/MainMenu.cs" id="3"]
+[ext_resource type="FontFile" path="res://_assets/fonts/font_title.tres" id="4"]
 
 [node name="Main Menu" type="Control"]
 anchor_right = 1.0

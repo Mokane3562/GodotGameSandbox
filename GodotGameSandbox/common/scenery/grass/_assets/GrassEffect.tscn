@@ -1,6 +1,6 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=8 format=3]
 
-[ext_resource path="res://entities/objects/grass/_textures/GrassEffect.png" type="Texture2D" id=1]
+[ext_resource type="Texture2D" uid="uid://dadnc0eoldbjb" path="res://common/scenery/grass/_assets/GrassEffect.png" id="1"]
 
 [sub_resource type="AtlasTexture" id=1]
 atlas = ExtResource( 1 )

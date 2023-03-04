@@ -3,4 +3,8 @@
     <TargetFramework>net6.0</TargetFramework>
     <EnableDynamicLoading>true</EnableDynamicLoading>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Council\Council.csproj" />
+    <ProjectReference Include="..\Item\Item.csproj" />
+  </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
-[gd_resource type="TileSet" load_steps=4 format=2]
+[gd_resource type="TileSet" load_steps=4 format=3]
 
-[ext_resource path="res://_textures/tileset.png" type="Texture2D" id=1]
+[ext_resource type="Texture2D" uid="uid://daxhy4bftinj2" path="res://_assets/textures/tileset.png" id="1"]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PackedVector2Array( 0, 0, 80, 0, 80, 80, 0, 80 )

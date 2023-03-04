@@ -1,13 +1,13 @@
-[gd_scene load_steps=64 format=2]
+[gd_scene load_steps=64 format=3]
 
-[ext_resource path="res://player/Player.tscn" type="PackedScene" id=1]
-[ext_resource path="res://entities/objects/building/Building.tscn" type="PackedScene" id=2]
-[ext_resource path="res://entities/objects/bush/Bush.tscn" type="PackedScene" id=3]
-[ext_resource path="res://levels/town/_textures/GrassBackground.png" type="Texture2D" id=4]
-[ext_resource path="res://levels/town/_textures/DirtTileset.png" type="Texture2D" id=5]
-[ext_resource path="res://levels/town/_textures/CliffTileset.png" type="Texture2D" id=6]
-[ext_resource path="res://entities/objects/grass/Grass.tscn" type="PackedScene" id=7]
-[ext_resource path="res://entities/characters/Character.tscn" type="PackedScene" id=8]
+[ext_resource type="PackedScene" uid="uid://w22t5sscsn63" path="res://player/Player.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://common/scenery/building/Building.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://common/scenery/bush/Bush.tscn" id="3"]
+[ext_resource type="Texture2D" uid="uid://7ird2yd3xghx" path="res://levels/town/_assets/GrassBackground.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://dhfwrua1eyioq" path="res://levels/town/_assets/DirtTileset.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://donwwl5kuparu" path="res://levels/town/_assets/CliffTileset.png" id="6"]
+[ext_resource type="PackedScene" path="res://common/scenery/grass/Grass.tscn" id="7"]
+[ext_resource type="PackedScene" path="res://npc/characters/Character.tscn" id="8"]
 
 [sub_resource type="TileSet" id=1]
 0/name = "GrassBackground.png 0"
